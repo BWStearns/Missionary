@@ -1,9 +1,8 @@
 (ns missionary.core)
 
 (defmulti convert
-  """This is the multimethod we'll build."""
+  "This is the multimethod we'll build."
    (fn [unit1 unit2 qty] [unit1 unit2]))
-
 
 (defmacro make-conversion
   "Write a conversion multimethod by threading through intermediate steps.
