@@ -5,4 +5,6 @@
   :main missionary.core
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [aysylu/loom "1.0.0"]])
+
